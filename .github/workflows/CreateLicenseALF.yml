@@ -1,6 +1,8 @@
 name: Create ALF File
 
-on: [push]
+on:
+  workflow_dispatch:
+  push:
 
 jobs:
   build:
